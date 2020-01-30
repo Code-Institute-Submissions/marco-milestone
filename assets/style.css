@@ -41,6 +41,25 @@ header {height:91px;}
 /* -----------------------------------------home page hero section */
 
 
+
+/* -----------------------------------------About us home page */
+
+.about_us h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+}
+
+.about_us p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000;
+    font-size: 1.5em;
+    font-family: "Exo", sans-serif;
+}
+
 /* -----------------------------------------Footer */
 
 .footer {
