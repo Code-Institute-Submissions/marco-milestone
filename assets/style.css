@@ -8,6 +8,11 @@ header {height:91px;}
     color: black;
 }
 
+.navbar-collapse {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .navbar-nav li {
     padding-left: 15px;
     padding-right: 15px;
@@ -72,25 +77,7 @@ section#hero {height: 665px; position: relative;}
 
 .jumbotron {text-align:center;}
 
-.jumbotron h1, .jumbotron p { color: #fff;}
-
-/* -----------------------------------------About us home page */
-
-.about_us h1 {
-    text-align: center;
-    padding-top: 30px;
-    color: #000;
-    text-transform: uppercase;
-    font-family: "Exo", sans-serif;
-}
-
-.about_us p {
-    text-align: center;
-    padding-bottom: 50px;
-    color: #000;
-    font-size: 1.5em;
-    font-family: "Exo", sans-serif;
-}
+.jumbotron h3, .jumbotron p { color: #fff;}
 
 
 /* -----------------------------------------About us home page */
@@ -107,8 +94,11 @@ section#hero {height: 665px; position: relative;}
     text-align: center;
     padding-bottom: 50px;
     color: #000;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 1.6;
 }
 
 /* -----------------------------------------Membership prices */
