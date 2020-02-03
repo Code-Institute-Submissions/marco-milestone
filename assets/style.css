@@ -324,7 +324,7 @@ flex: 0 0 100%;
 }
 
 .baguetteBox-button {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 @media(max-width: 768px) {
