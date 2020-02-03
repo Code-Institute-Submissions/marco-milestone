@@ -333,6 +333,80 @@ flex: 0 0 100%;
     }
 }
 
+/* -----------------------------------------contact page */
+
+#location-details {
+    padding-top: 100px;
+}
+
+.opening-hour p {
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.mapouter {
+    margin-top: -50px;
+}
+
+.location-gym p {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.container-fluid h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #0000ff;
+}
+
+/* create media queries so it look good on mobilephone */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+.hours-details {
+    padding-top: 30px;
+}
+
+.hours-details h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (width: 768px) {
+    .class-enquiry {
+        height: 467px; 
+    }
+}
+
+
 /* -----------------------------------------Footer */
 
 .footer {
