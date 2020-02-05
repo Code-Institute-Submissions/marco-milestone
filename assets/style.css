@@ -187,19 +187,6 @@ section#hero {height: 665px; position: relative;}
 	width: 100%;
 }
 
-/*Responsive*/
-
-/*if screen width is less than or equal to 767px then*/
-
-@media(max-width: 767px){
-.price-package .content{
-	flex-wrap: wrap;
-}
-.price-package .content .box {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-}
 
 
 
@@ -252,27 +239,6 @@ section#hero {height: 665px; position: relative;}
 	color:#222222;
 }
 
-/*Responsive*/
-
-/*if screen width is less than or equal to 767px then*/
-
-@media(max-width: 767px){
-    .classes .content .class-items .item{
-	flex-wrap: wrap;
-}
-.classes .content .class-items .item .item-text, 
-.classes .content .class-items .item .item-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.schedule .content{
-	flex-wrap: wrap;
-}
-.schedule .content .box{
-flex: 0 0 100%;
-    max-width: 100%;	
-}
-}
 
 /*------------------------------------------Gallery */
 
@@ -327,37 +293,7 @@ flex: 0 0 100%;
     background-color: transparent;
 }
 
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-
 /* -----------------------------------------contact page */
-
-#location-details {
-    padding-top: 100px;
-}
-
-.opening-hour p {
-    text-align: left;
-    font-size: 1.4em;
-}
-
-.mapouter {
-    margin-top: -50px;
-}
-
-.location-gym p {
-    text-align: left;
-    padding-top: 20px;
-}
-
-.container-fluid h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -380,30 +316,30 @@ button[type="submit"] {
     background-color: #0000ff;
 }
 
-/* create media queries so it look good on mobilephone */
+.class-enquiry {
+    font-family: "Exo", sans-serif;
+}
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+.class-enquiry h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#fullname.form-control {
+    margin: 10px 0 10px 0;
 }
 
 .hours-details {
-    padding-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .hours-details h4 {
     text-transform: uppercase;
     font-weight: bold;
-}
-
-@media (width: 768px) {
-    .class-enquiry {
-        height: 467px; 
-    }
 }
 
 
@@ -413,7 +349,6 @@ button[type="submit"] {
     background-color: #0f0a01;
     color: #fafafa;
     text-align:center;
-    bottom: 0;
 }
 
 .footer ul {
@@ -457,3 +392,41 @@ button[type="submit"] {
 }
 
 
+/* -----------------------------------------media query*/
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+/*Responsive*/
+
+/*if screen width is less than or equal to 767px then*/
+
+@media(max-width: 767px){
+    .classes .content .class-items .item{
+	flex-wrap: wrap;
+}
+    .classes .content .class-items .item .item-text, 
+    .classes .content .class-items .item .item-img {
+    flex: 0 0 100%;
+     max-width: 100%;
+}
+    .schedule .content{
+	flex-wrap: wrap;
+}
+    .schedule .content .box{
+    flex: 0 0 100%;
+    max-width: 100%;	
+}
+
+    .price-package .content{
+	flex-wrap: wrap;
+}
+    .price-package .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
