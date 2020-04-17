@@ -78,3 +78,24 @@ git clone https://github.com/USERNAME/REPOSITORY
 7. Press Enter. Your local clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
+## Credits
+
+#### Content
+
+* All text in this project was written by the developer.
+
+### Media
+
+#### Images
+
+* The images used for the backgorund and gallery were obtained from Google Images and are used for educational purposes only.
+
+
+## Acknowledgements
+
+I have taken inspiration from Better Gym website. My mentor, online student support and Slack were both great help throughout my project.
+
+##### Disclaimer
+
+* The content of this website, including the images used, are for educational purposes only.
