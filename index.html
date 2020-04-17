@@ -2,171 +2,149 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/style.css">
-	<title>Speedy Fit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Speedy Fit</title>
 </head>
 
 <body>
 
-	<header>
+    <header>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/logo.jpg" alt="logo">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="trainingcost.html">Gym Membership</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="events.html">Events</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="gallery.html">Gallery</a>
-					</li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.jpg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-				<div class="navbar-right">
-					<button type="button" class="btn btn-primary btn-lg my-2 my-sm-0" data-toggle="modal" data-target="#login_form">Sign In</button>
-				</div>
-			</form>
-			</div>
-		</nav>
-	</header>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainingcost.html">Gym Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="navbar-right">
+                        <button type="button" class="btn btn-primary btn-lg my-2 my-sm-0" data-toggle="modal" data-target="#login_form">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
 
-	<section id="hero">
-		<div id="home_hero" class="jumbotron jumbotron-fluid">
-			<div id="cta" class="container center">
-				<h3 class="display-4">Build your body Strong</h3>
-				<p>We are here to help you achive success with your health and fitness throught smart training.</p>
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login_form">Start Build your body</button>
-			</div>
-		</div>
+    <section id="hero">
+        <div id="home_hero" class="jumbotron jumbotron-fluid">
+            <div id="cta" class="container center">
+                <h3 class="display-4">Build your body Strong</h3>
+                <p>We are here to help you achive success with your health and fitness throught smart training.</p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login_form">Start Build your body</button>
+            </div>
+        </div>
 
-	<!-- Modal -->
+        <!-- Modal -->
 
-		<div class="modal fade" id="login_form" tabindex="-1" role="dialog" aria-labelledby="loginModalCenterTitle"
-			aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="loginModalCenterTitle">Speedy Gym</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-					</div>
-					<div class="modal-body">
-						<form class="form-signin">
-							<img class="mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-							<h3 class="h3 mb-3 font-weight-normal">Sign Up to Speedy Gym</h3>
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							<label for="password">Password</label>
-							<input type="password" class="form-control" id="password" placeholder="Password">
-							<label for="repeatPassword">Repeat Password</label>
-							<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+        <div class="modal fade" id="login_form" tabindex="-1" role="dialog" aria-labelledby="loginModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalCenterTitle">Speedy Gym</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-signin">
+                            <img class="mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                            <h3 class="h3 mb-3 font-weight-normal">Sign Up to Speedy Gym</h3>
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
 
-							<div class="checkbox mb-3">
-								<label>
-                                   <input type="checkbox" value="remember-me"> Remember me
-                               </label>
-							</div>
-							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-							<p class="mt-5 mb-3 text-muted">© 2019-2020</p>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                            <p class="mt-5 mb-3 text-muted">© 2019-2020</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- about us description -->
+    <!-- about us description -->
 
-<section class="container about_us">
-		<div class="row">
+    <section class="container about_us">
+        <div class="row">
 
-			<h1 class="col-sm-12" id="about-us">About Us</h1>
+            <h1 class="col-sm-12" id="about-us">About Us</h1>
 
-			<p class="col-sm-12"> Speedy Fit has been designed with every fitness requirement and schedule in mind. With
-				the community at the heart of it’s recent refurbishment, the space provides facilities for all abilities
-				to take advantage of personal training sessions, classes
-				or simply as a space to work out in your own time. In the modern cardio room, you will find a
-				traditional range of gym equipment along with some high-tech surprises. There’s a Skill Mill, for
-				treadmill-style athletic workouts, Stairmaster,
-				for incline HIIT programmes and a Watt Bike Pro and Assault Air Bike – for competitive and recreational
-				cyclists alike. Alongside the cardio room there is a generously equipped weight training area (with
-				cathedral ceiling) and upstairs you
-				will find a superb disco-lit spin studio, with the latest Keiser Indoor Cycles. The Fitness Management
-				team, led by Marco Moreschi have designed a diverse range of classes including HIIT, Box Fit, Body Blast
-				Circuit, Ab Attack, and Spin.
-				What’s more, membership of the gym is not required to take advantage of personal training sessions or
-				the comprehensive class timetable.
-			</p>
+            <p class="col-sm-12"> Speedy Fit has been designed with every fitness requirement and schedule in mind. With the community at the heart of it’s recent refurbishment, the space provides facilities for all abilities to take advantage of personal training sessions, classes or simply as a space to work out in your own time. In the modern cardio room, you will find a traditional range of gym equipment along with some high-tech surprises. There’s a Skill Mill, for treadmill-style athletic workouts, Stairmaster, for incline HIIT programmes and a Watt Bike Pro and Assault Air Bike – for competitive and recreational cyclists alike. Alongside the cardio room there is a generously equipped weight training area (with cathedral ceiling) and upstairs you will find a superb disco-lit spin studio, with the latest Keiser Indoor Cycles. The Fitness Management team, led by Marco Moreschi have designed a diverse range of classes including HIIT, Box Fit, Body Blast Circuit, Ab Attack, and Spin. What’s more, membership of the gym is not required to take advantage of personal training sessions or the comprehensive class timetable.
+            </p>
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-<!-- footer -->
+    <!-- footer -->
 
-	<footer class="footer container-fluid">
+    <footer class="footer container-fluid">
 
-		<ul class="list-inline social-links ">
-			<li class="list-inline-item ">
-				<a target="blank " href="https://www.facebook.com/">
-					<i class="fa fa-facebook "></i>
-					<span class="sr-only ">Facebook</span>
-				</a>
-			</li>
-			<li class="list-inline-item ">
-				<a target="blank " href="https://www.linkedin.com/in/marco-moeschi-a78645192/">
-					<i class="fa fa-linkedin "></i>
-					<span class="sr-only ">LinkedIn</span>
-				</a>
-			</li>
-			<li class="list-inline-item ">
-				<a target="blank " href="https://www.instagram.com/marco.moreschi_/?hl=it">
-					<i class="fa fa-instagram "></i>
-					<span class="sr-only ">Instagram</span>
-				</a>
-			</li>
-		</ul>
-		<p class="copyright">&#169; Copyright Speedy Fit 2020. All Right Reserved</p>
+        <ul class="list-inline social-links ">
+            <li class="list-inline-item ">
+                <a target="blank " href="https://www.facebook.com/">
+                    <i class="fa fa-facebook "></i>
+                    <span class="sr-only ">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="blank " href="https://www.linkedin.com/in/marco-moeschi-a78645192/">
+                    <i class="fa fa-linkedin "></i>
+                    <span class="sr-only ">LinkedIn</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="blank " href="https://www.instagram.com/marco.moreschi_/?hl=it">
+                    <i class="fa fa-instagram "></i>
+                    <span class="sr-only ">Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <p class="copyright">&#169; Copyright Speedy Fit 2020. All Right Reserved</p>
 
-	</footer>
+    </footer>
 
+    <!-- Bootstraps Link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 
-
-	<!-- Bootstraps Link -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
-	</script>
-
-</body> 
+</body>
 
 </html>
