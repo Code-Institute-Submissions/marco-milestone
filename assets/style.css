@@ -342,6 +342,10 @@ button[type="submit"] {
     font-weight: bold;
 }
 
+textarea {
+    margin-top: 10px
+}
+
 
 /* -----------------------------------------Footer */
 
